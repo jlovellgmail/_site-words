@@ -1,0 +1,105 @@
+body {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.main {
+}
+#top-controls {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: rgba(0,0,0, .05);
+    margin: 0;
+}
+#list-container {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.group {
+    margin-top: 10px;
+}
+.h-group {
+    display: inline-block;
+}
+.button {
+    margin-bottom: 6px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 80px;
+    height: 20px;
+    background-color: rgba(0,0,0, .05);
+}
+.list_length_input {
+    width: 40px;
+    margin-right: 5px;
+}
+.bottom-mark {
+    height: 40px;
+    background-color: red;
+}
+.list-item-container {
+    position: relative;
+    padding: 10px;
+}
+.list-item-container:hover {
+   background-color: rgba(255,0,0, .012);
+}
+.line-number {
+    color: rgba(0,0,0, .3);
+    font-size: 11px;
+    font-family: arial;
+    text-align: right;
+    display: block;
+    float: left;
+    position: relative;
+    top: 3px;
+}
+.item {
+    cursor: pointer;
+}
+.clicked {
+    color: red;
+}
+.result {
+}
+.links-container {
+    font-size: 11px;
+    font-family: arial;
+    text-decoration: none;
+    position: absolute;
+    display: block;
+    right: 12px;
+}
+.word-link{
+    font-size: 9px;
+    font-family: arial;
+    display: inline-block;
+    padding: 1px 3px 1px 3px;
+    margin: 1px;
+    margin-left: 1px;
+    background-color: rgba(0,0,0, .05);
+    border: 1px solid rgba(0,0,0, .06);
+    top: 2px;
+    position: relative;
+}
+.links-container .word-link:hover {
+    background-color: rgba(0,0,0, .2);
+}
+.links-container a {
+    text-decoration: none;
+    color: rgba(0,0,0, .3);
+}
+.links-container a:hover {
+    color: rgba(0,0,0, .9);
+}
+.list-bottom-margin {
+    height: 25px;
+}
+.audio {
+    background-color: rgba(255,237,95, .5);
+    cursor: pointer;
+}
+.links-container .audio:hover {
+    background-color: rgba(255,237,95, 1);
+}

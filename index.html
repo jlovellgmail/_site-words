@@ -1,0 +1,58 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <!--
+        ----------------------------------------------------------------------------------
+        -->
+        <script src="libraries/jquery-1.11.3.min.js"></script>
+        <script src="libraries/d3.min.js"></script>
+        <script src="data.js"></script>
+        <script src="executable.js"></script>
+	 	<link rel="stylesheet" type="text/css" href="style.css" />
+        <!--
+        ----------------------------------------------------------------------------------
+        -->
+        <div class="main">
+
+
+            <div id="top-controls" class="group">
+                <div class="h-group" style="text-align: center;">
+                    <input type="button" value="flip" 
+                        onclick="flip()" 
+                        class="button"
+                        />
+                    <input type="button" value="shuffle" 
+                        onclick="go()" 
+                        class="button"
+                        />
+                    <input class="list_length_input" type="text" id="list_length_input" name="list_length_input" 
+                        onkeypress="return check_keypress(event)" 
+                        autofocus
+                        />
+                    <script>setInputValue();</script>
+                </div>            
+                <div class="h-group on-both-sides-of-button" style="text-align: left;">
+                    <div id="next_to_button"></div>
+                </div>
+            </div>
+
+
+            <div id="list-container" class="group">
+                <div class="result">
+                    <p id="result" name="r1">
+                </div>
+            </div>
+
+
+        </div>
+        <div class="bottom-mark"></div>
+        <!--
+        ----------------------------------------------------------------------------------
+        -->
+    </body>
+</html>
+
+
+
+
