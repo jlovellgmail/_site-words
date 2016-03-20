@@ -20,23 +20,25 @@ function i(word, definition, links){
     }    
     data.items.push(item);
 }
+var ex = convert_string_to_example_sentence;
+function convert_string_to_example_sentence(s){
+    //return "<em style='color:blue;'>" + s + "</em>";
+    return "<span class='example-sentence'>" + s + "</span>";
+}
 //--------------------------------------------------
-
-// example from french version:
-//i("secular", "The Charlie Hebdo shootings had been widely understood as an assault on freedom of expression and French secularism; Relating to the worldly or temporal <secular concerns>; not overtly or specifically religious; from Latin saecularis \"of an age, occurring once in an age,\" from saeculum \"age, span of time, generation.\"");
-
 i(
     "caustic", 
-    "Able to burn or corrode organic tissue by chemical action: <em>a caustic cleaner</em>"
-    + definition_separator + "Sarcastic in a scathing and bitter way: <em>the players were making caustic comments about the refereeing</em>"
+    "Able to burn or corrode organic tissue by chemical action: " + ex("a caustic cleaner")
+    + definition_separator + "Sarcastic in a scathing and bitter way: " + ex("the players were making caustic comments about the refereeing")
     );
 i(
     "chastise",
-    "Rebuke or reprimand severely: <em>he chastised his colleagues for their laziness</em>"
+    "Rebuke or reprimand severely: " + ex("he chastised his colleagues for their laziness")
     );
 i(
     "epithet",
-    "An adjective or descriptive phrase expressing a quality characteristic of the person or thing mentioned: <em>\"Difficult\" is another epithet that trails [David Hammons], voiced with rueful smiles by dealers and curators.</em>"
+    "An adjective or descriptive phrase expressing a quality characteristic of the person or thing mentioned: " + ex("\"Difficult\" is another epithet that trails [David Hammons], voiced with rueful smiles by dealers and curators.")
+    );
     );
 //--------------------------------------------------
 console.log("data.js was loaded");
