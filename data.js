@@ -41,7 +41,7 @@ i(
     );
 i(
     "synecdoche",
-    "a figure of speech in which a part is made to represent the whole or vice versa: " + ex("There is a typology of rhetorical figures of speech made up of four tropes, they in turn govern the way we operate language: metaphor, metonymy, synecdoche, and irony.")
+    "a figure of speech in which a part is made to represent the whole or vice versa: " + ex("There is a typology of rhetorical figures of speech made up of four tropes...: metaphor, metonymy, synecdoche, and irony.")
     );
 //--------------------------------------------------
 console.log("data.js was loaded");
