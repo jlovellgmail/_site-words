@@ -26,23 +26,21 @@ function convert_string_to_example_sentence(s){
     return "<span class='example-sentence'>" + s + "</span>";
 }
 //--------------------------------------------------
-i(
-    "caustic", 
+i("synecdoche",
+    "A figure of speech in which a part is made to represent the whole or vice versa: " + ex("There is a typology of rhetorical figures of speech made up of four tropes... metaphor, metonymy, synecdoche, and irony.")
+    );
+/*
+i("caustic", 
     "Able to burn or corrode organic tissue by chemical action: " + ex("a caustic cleaner")
     + definition_separator + "Sarcastic in a scathing and bitter way: " + ex("the players were making caustic comments about the refereeing")
     );
-i(
-    "chastise",
+i("chastise",
     "Rebuke or reprimand severely: " + ex("he chastised his colleagues for their laziness")
     );
-i(
-    "epithet",
+i("epithet",
     "An adjective or descriptive phrase expressing a quality characteristic of the person or thing mentioned: " + ex("\"Difficult\" is another epithet that trails [David Hammons], voiced with rueful smiles by dealers and curators.")
     );
-i(
-    "synecdoche",
-    "a figure of speech in which a part is made to represent the whole or vice versa: " + ex("There is a typology of rhetorical figures of speech made up of four tropes...: metaphor, metonymy, synecdoche, and irony.")
-    );
+*/
 //--------------------------------------------------
 console.log("data.js was loaded");
 
