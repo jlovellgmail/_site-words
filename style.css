@@ -107,3 +107,9 @@ body {
     color: blue;
     font-style: italic;
 }
+.etymology {
+    color: red;
+}
+.origin-word {
+    font-style: italic;
+}
