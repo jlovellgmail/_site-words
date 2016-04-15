@@ -38,18 +38,12 @@ i("synecdoche",
     + ex("There is a typology of rhetorical figures of speech made up of four tropes... metaphor, metonymy, synecdoche, and irony. ")
     + etym("Greek "+o("syn-")+" \"with\", "+o("ek")+" \"out\", "+o("dekhesthai")+" \"to receive\"")
     );
-/*
-i("caustic", 
-    "Able to burn or corrode organic tissue by chemical action: " + ex("a caustic cleaner")
-    + definition_separator + "Sarcastic in a scathing and bitter way: " + ex("the players were making caustic comments about the refereeing")
+i("ardent",
+    "enthusiastic, passionate. Synonyms: fervent, zealous, fervid, wholehearted, vehement, intense, fierce, fiery, keen, eager, avid, committed, dedicated. " 
+    + etym("Latin "+o("ardere")+" \"to burn\"")
     );
-i("chastise",
-    "Rebuke or reprimand severely: " + ex("he chastised his colleagues for their laziness")
-    );
-i("epithet",
-    "An adjective or descriptive phrase expressing a quality characteristic of the person or thing mentioned: " + ex("\"Difficult\" is another epithet that trails [David Hammons], voiced with rueful smiles by dealers and curators.")
-    );
-*/
+//--------------------------------------------------
+// Obsequious
 //--------------------------------------------------
 console.log("data.js was loaded");
 
