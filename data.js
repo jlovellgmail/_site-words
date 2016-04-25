@@ -42,6 +42,10 @@ i("ardent",
     "enthusiastic, passionate. Synonyms: fervent, zealous, fervid, wholehearted, vehement, intense, fierce, fiery, keen, eager, avid, committed, dedicated. " 
     + etym("Latin "+o("ardere")+" \"to burn\"")
     );
+i("grapheme",
+	"a minimal unit of a writing system. "
+	+ ex("Baer uses the hyperrealism of objects as a counterpoint in an elaborate vocabulary of nonrepresentational graphemes and painted interventions. ")
+	);
 //--------------------------------------------------
 // Obsequious
 //--------------------------------------------------
