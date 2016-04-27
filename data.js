@@ -39,12 +39,17 @@ i("synecdoche",
     + etym("Greek "+o("syn-")+" \"with\", "+o("ek")+" \"out\", "+o("dekhesthai")+" \"to receive\"")
     );
 i("ardent",
-    "enthusiastic, passionate. Synonyms: fervent, zealous, fervid, wholehearted, vehement, intense, fierce, fiery, keen, eager, avid, committed, dedicated. " 
+    "Enthusiastic or passionate. Synonyms: fervent, zealous, fervid, wholehearted, vehement, intense, fierce, fiery, keen, eager, avid, committed, dedicated. " 
     + etym("Latin "+o("ardere")+" \"to burn\"")
     );
 i("grapheme",
-	"a minimal unit of a writing system. "
+	"A minimal unit of a writing system. "
 	+ ex("Baer uses the hyperrealism of objects as a counterpoint in an elaborate vocabulary of nonrepresentational graphemes and painted interventions. ")
+	);
+i("bereft",
+	"Deprived of or lacking something, especially a nonmaterial asset. "
+	+ "Bereaved applies to loss of loved ones, bereft to circumstances. "
+	+ ex("Her room was stark and bereft of color. ")
 	);
 //--------------------------------------------------
 // Obsequious
