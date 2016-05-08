@@ -51,6 +51,16 @@ i("bereft",
 	+ "Bereaved applies to loss of loved ones, bereft to circumstances. "
 	+ ex("Her room was stark and bereft of color. ")
 	);
+i("categorical",
+    "Without exceptions or conditions. "
+    + "Synonyms: absolute, unqualified, unconditional, unequivocal, explicit, express, unambiguous, definite, direct, downright, outright. "
+    + etym( 
+          o("Kata") + " \"down to, against\" "
+        + o("Agoreuein") + " \"to harangue, to declaim (in the assembly)\" "
+        + o("Agora") + " \"public assembly\" "
+        + "Original sense of \"accuse\" weakened to \"assert, name\" by the time Aristotle applied " + o("kategoria") + " to his 10 classes of things that can be named."
+        )
+    );
 //--------------------------------------------------
 // Obsequious
 //--------------------------------------------------

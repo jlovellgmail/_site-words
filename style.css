@@ -57,6 +57,7 @@ body {
 }
 .item {
     cursor: pointer;
+    margin-left: 10px;
 }
 .clicked {
     color: red;
