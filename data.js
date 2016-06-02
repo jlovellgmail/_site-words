@@ -36,11 +36,11 @@ function convert_string_to_origin_word(s){
 i("synecdoche",
     "A figure of speech in which a part is made to represent the whole or vice versa: " 
     + ex("There is a typology of rhetorical figures of speech made up of four tropes... metaphor, metonymy, synecdoche, and irony. ")
-    + etym("Greek "+o("syn-")+" \"with\", "+o("ek")+" \"out\", "+o("dekhesthai")+" \"to receive\"")
+    + etym("Greek: "+o("Syn-")+" \"with\", "+o("Ek")+" \"out\", "+o("Dekhesthai")+" \"to receive\"")
     );
 i("ardent",
     "Enthusiastic or passionate. Synonyms: fervent, zealous, fervid, wholehearted, vehement, intense, fierce, fiery, keen, eager, avid, committed, dedicated. " 
-    + etym("Latin "+o("ardere")+" \"to burn\"")
+    + etym("Latin: "+o("Ardere")+" \"to burn\"")
     );
 i("grapheme",
 	"A minimal unit of a writing system. "
@@ -54,8 +54,9 @@ i("bereft",
 i("categorical",
     "Without exceptions or conditions. "
     + "Synonyms: absolute, unqualified, unconditional, unequivocal, explicit, express, unambiguous, definite, direct, downright, outright. "
-    + etym( 
-          o("Kata") + " \"down to, against\" "
+    + etym(
+    	"Greek: "
+        + o("Kata") + " \"down to, against\" "
         + o("Agoreuein") + " \"to harangue, to declaim (in the assembly)\" "
         + o("Agora") + " \"public assembly\" "
         + "Original sense of \"accuse\" weakened to \"assert, name\" by the time Aristotle applied " + o("kategoria") + " to his 10 classes of things that can be named."
