@@ -70,6 +70,15 @@ i("provenance",
           + o("Provenire") + " \"come forth, originate, appear, arise\" "
         )
     );
+i("vignette",
+    "a brief evocative description, account, or episode. "
+    + "a small illustration or portrait photograph that fades into its background without a definite border. "
+    + ex("The film is a series of vignettes about living with cancer. ")
+    + etym( 
+		"Old French: " 
+		+ "diminutive of " + o("vigne") + " \"vineyard\" "
+		)
+    );
 //--------------------------------------------------
 // Obsequious
 //--------------------------------------------------
