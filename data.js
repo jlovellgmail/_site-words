@@ -71,12 +71,13 @@ i("provenance",
         )
     );
 i("vignette",
-    "a brief evocative description, account, or episode. "
-    + "a small illustration or portrait photograph that fades into its background without a definite border. "
+    "A brief evocative description, account, or episode. "
+    + "A small illustration or portrait photograph that fades into its background without a definite border. "
     + ex("The film is a series of vignettes about living with cancer. ")
     + etym( 
-		"Old French: " 
-		+ "diminutive of " + o("vigne") + " \"vineyard\" "
+    	"Originally a design in the form of vine tendrils around the borders of a book page, especially a picture page. "
+		+ "Old French: " + "diminutive of " + o("vigne") + " \"vineyard\" "
+		+ "Sense transferred from the border to the picture itself, then (1853) to a type of small photographic portrait with blurred edges very popular mid-19c. "
 		)
     );
 //--------------------------------------------------
