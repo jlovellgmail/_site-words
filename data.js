@@ -66,8 +66,8 @@ i("provenance",
     "The place of origin or earliest known history of something. "
     + ex("Martini brought along a psychologist, who helped him come to the conclusion that Falciani seemed credible about the provenance of his data. ") // New Yorker MAY 30, 2016 ISSUE "THE BANK ROBBER" http://www.newyorker.com/magazine/2016/05/30/herve-falcianis-great-swiss-bank-heist
     + etym( 
-          "Latin: " 
-          + o("Provenire") + " \"come forth, originate, appear, arise\" "
+		"Latin: " 
+		+ o("Provenire") + " \"come forth, originate, appear, arise\" "
         )
     );
 i("vignette",
