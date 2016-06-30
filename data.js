@@ -76,7 +76,7 @@ i("vignette",
     + ex("The film is a series of vignettes about living with cancer. ")
     + etym( 
     	"Originally a design in the form of vine tendrils around the borders of a book page, especially a picture page. "
-		+ "Old French: " + "diminutive of " + o("vigne") + " \"vineyard\" "
+		+ "Old French: " + "diminutive of " + o("vigne") + " \"vine\" "
 		+ "Sense transferred from the border to the picture itself, then (1853) to a type of small photographic portrait with blurred edges very popular mid-19c. "
 		)
     );
