@@ -2,6 +2,7 @@
 var cache = "_____";
 var endash = "\u2013";
 var definition_separator = " - - - ";
+var e_acute = "\u00E9"; // é
 //--------------------------------------------------
 //--------------------------------------------------
 var data = {};
@@ -79,6 +80,14 @@ i("vignette",
 		+ "Old French: " + "diminutive of " + o("vigne") + " \"vine\" "
 		+ "Sense transferred from the border to the picture itself, then (1853) to a type of small photographic portrait with blurred edges very popular mid-19c. "
 		)
+    );
+i("semantic",
+    "Relating to meaning in language or logic. "
+    + etym(
+        "French: "+o("s"+e_acute+"mantique. ")
+        + "Applied by Michel Br"+e_acute+"al (1883) to the psychology of language. "
+        + "Greek: " + o("sema") + " \"sign, mark, token; omen, portent; constellation; grave.\" "
+        )
     );
 //--------------------------------------------------
 // Obsequious
