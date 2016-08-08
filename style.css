@@ -60,7 +60,8 @@ body {
     margin-left: 10px;
 }
 .clicked {
-    color: red;
+    background-color: rgba(255,0,0, .07);
+    padding: 10px;
 }
 .result {
 }
